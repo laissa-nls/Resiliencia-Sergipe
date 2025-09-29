@@ -332,9 +332,14 @@ document.addEventListener('click', function(e) {
         showMessage('Entre em contato conosco!');
     }
     
-    // Botão de WhatsApp
+    // Botão de Whatapp
     if (e.target.textContent === 'Entre em Contato pelo WhatsApp') {
         window.open('https://wa.me/5579999307947', '_blank');
+    }
+
+    // Botão de WhatsApp
+    if (e.target.textContent === 'Siga nosso Instagram') {
+        window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
     }
     
     // Botão seja voluntária
