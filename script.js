@@ -329,12 +329,12 @@ document.head.appendChild(style);
 document.addEventListener('click', function(e) {
     // Botões de livros
     if (e.target.textContent === 'Adquirir Livros' || e.target.textContent === 'Versão Digital') {
-        showMessage('Funcionalidade em desenvolvimento. Entre em contato conosco para mais informações.');
+        showMessage('Entre em contato conosco!');
     }
     
     // Botão de WhatsApp
     if (e.target.textContent === 'Entre em Contato pelo WhatsApp') {
-        window.open('https://wa.me/5511999999999', '_blank');
+        window.open('https://wa.me/5579999307947', '_blank');
     }
     
     // Botão seja voluntária
