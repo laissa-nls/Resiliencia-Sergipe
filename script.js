@@ -338,7 +338,7 @@ document.addEventListener('click', function(e) {
     }
 
     // Botão de WhatsApp
-    if (e.target.textContent === 'Siga nosso Instagram') {
+    if (e.target.textContent === 'Instagram') {
         window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
     }
     
