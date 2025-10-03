@@ -332,13 +332,23 @@ document.addEventListener('click', function(e) {
         showMessage('Entre em contato conosco!');
     }
     
-    // Botão de Whatapp
+    // Botão de Whatsapp
     if (e.target.textContent === 'Entre em Contato pelo WhatsApp') {
         window.open('https://wa.me/5579999307947', '_blank');
     }
 
-    // Botão de WhatsApp
+    // Botão de Whatsapp
+    if (e.target.textContent === '(79) 99930-7947') {
+        window.open('https://wa.me/5579999307947', '_blank');
+    }
+
+    // Botão de Instagram
     if (e.target.textContent === 'Instagram') {
+        window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
+    }
+
+    // Botão de Instagram
+    if (e.target.textContent === '@resilienciasergipe') {
         window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
     }
     
