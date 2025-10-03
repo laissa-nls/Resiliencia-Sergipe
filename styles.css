@@ -37,7 +37,7 @@ body {
 
 /* Header */
 .header {
-    position: fixed;
+    position: flex;
     top: 0;
     left: 0;
     right: 0;
