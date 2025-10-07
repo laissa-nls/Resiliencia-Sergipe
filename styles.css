@@ -37,7 +37,7 @@ body {
 
 /* Header */
 .header {
-    position: flex;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -601,7 +601,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
    
 }
 

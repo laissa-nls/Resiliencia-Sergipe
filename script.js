@@ -347,7 +347,7 @@ document.addEventListener('click', function(e) {
         window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
     }
 
-    // Botão de Instagram
+        // Botão de Instagram
     if (e.target.textContent === '@resilienciasergipe') {
         window.open('https://www.instagram.com/resilienciasergipe/', '_blank');
     }
